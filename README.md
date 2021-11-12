@@ -18,6 +18,9 @@
 
 </details>
 
+<details open='true'>
+  <summary>English</summary>
+
 # Basic Structure of Java Program: Import Classes from 3rd Party Dependencies
 
 [Our program](https://github.com/ByteLegendQuest/java-import-3rd-party-class/blob/main/src/main/java/com/bytelegend/Main.java) imports a class `org.apache.commons.lang3.StringUtils` from 3rd party dependency package,
@@ -33,3 +36,5 @@ please add proper dependency to [`pom.xml`](https://github.com/ByteLegendQuest/j
 Any changes to files other than the following files will be rejected:**
 
 - `pom.xml`
+
+</details>

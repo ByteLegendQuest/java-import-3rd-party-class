@@ -3,11 +3,13 @@
    <groupId>ByteLegendQuest</groupId>
    <artifactId>java-import-3rd-party-class</artifactId>
    <version>1.0-SNAPSHOT</version>
+
    <properties>
       <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
+
    <profiles>
       <profile>
          <id>mavenCentral</id>
@@ -29,6 +31,7 @@
             </repository>
          </repositories>
       </profile>
+
       <profile>
          <id>aliyunMavenMirror</id>
          <pluginRepositories>
@@ -47,7 +50,13 @@
          </repositories>
       </profile>
    </profiles>
+
    <dependencies>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.10</version>
+      </dependency>
       <dependency>
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>
@@ -67,6 +76,7 @@
          <scope>test</scope>
       </dependency>
    </dependencies>
+
    <build>
       <plugins>
          <plugin>
@@ -78,4 +88,5 @@
          </plugin>
       </plugins>
    </build>
+
 </project>

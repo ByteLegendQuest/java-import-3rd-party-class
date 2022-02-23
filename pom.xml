@@ -10,6 +10,11 @@
    </properties>
    <profiles>
       <profile>
+      <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.7</version>
+</dependency>
          <id>mavenCentral</id>
          <activation>
             <activeByDefault>true</activeByDefault>

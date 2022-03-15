@@ -71,6 +71,11 @@
          <version>5.8.1</version>
          <scope>test</scope>
       </dependency>
+      <dependency>
+         <groupId>org.apache.httpcomponents</groupId>
+         <artifactId>project</artifactId>
+         <version>4.1</version>
+      </dependency>
    </dependencies>
    <build>
       <plugins>

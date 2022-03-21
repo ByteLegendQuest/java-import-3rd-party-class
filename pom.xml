@@ -1,12 +1,3 @@
-package com.bytelegend;
-
-import org.apache.commons.lang3.StringUtils;
-
-public class Main {
-   public static void main(String[] args) {
-      System.out.println("Empty string is empty: " + StringUtils.isEmpty(""));
-   }
-}
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>ByteLegendQuest</groupId>
@@ -74,6 +65,11 @@ public class Main {
          <artifactId>junit-jupiter-engine</artifactId>
          <version>5.8.1</version>
          <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.12.0</version>
       </dependency>
    </dependencies>
    <build>

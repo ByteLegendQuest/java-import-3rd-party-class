@@ -68,7 +68,7 @@
       </dependency>
       <dependency>
          <groupId>org.apache.commons.lang3.StringUtils</groupId>
-         <artifactId>StringUtils-artifact</artifactId>
+         <artifactId>commons-lang3-StringUtils</artifactId>
          <version>3.12.0</version>
       </dependency>
    </dependencies>

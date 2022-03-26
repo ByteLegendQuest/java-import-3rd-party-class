@@ -67,8 +67,8 @@
          <scope>test</scope>
       </dependency>
       <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>apache-commons-lang3-StringUtils</artifactId>
+         <groupId>org.apache.commons.lang3.StringUtils</groupId>
+         <artifactId>org-apache-commons-lang3-StringUtils</artifactId>
          <version>5.8.1</version>
          <scope>test</scope>
       </dependency>

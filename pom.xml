@@ -66,11 +66,11 @@
          <version>5.8.1</version>
          <scope>test</scope>
       </dependency>
-        <dependency>
+         <dependency>
          <groupId>org.apache.commons</groupId>
          <artifactId>commons.lang3</artifactId>
-         <version>unknown</version>
-         <type>pom</type>
+         <version>unkown</version>
+         <scope>pom</scope>
       </dependency>
    </dependencies>
    <build>

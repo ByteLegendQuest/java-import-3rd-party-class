@@ -7,10 +7,7 @@
 
 
    <properties>
-      <dependency>
-         <groupId>org.apache.commons.lang3.StringUtils</groupId>
-         <artifactId>commons-lang3</artifactId>
-      </dependency>
+      
       <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,6 +58,12 @@
          <version>0.1.2</version>
          <scope>test</scope>
       </dependency>
+
+      <dependency>
+         <groupId>org.apache.commons.lang3.StringUtils</groupId>
+         <artifactId>commons-lang3</artifactId>
+      </dependency>
+
       <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>

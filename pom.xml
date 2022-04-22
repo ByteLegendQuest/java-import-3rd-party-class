@@ -8,7 +8,7 @@
 
    <properties>
       <dependency>
-         <groupId>org.apache.commons</groupId>
+         <groupId>org.apache.commons.lang3.StringUtils</groupId>
          <artifactId>commons-lang3</artifactId>
       </dependency>
       <maven.compiler.source>1.8</maven.compiler.source>

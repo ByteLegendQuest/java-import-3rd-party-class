@@ -1,3 +1,43 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@crivellaricode
+ByteLegendQuest /
+java-import-3rd-party-class
+Public
+
+Code
+Issues
+Pull requests 4
+Discussions
+Actions
+Projects
+Wiki
+Security
+
+More
+java-import-3rd-party-class/pom.xml
+@Longyang-Liu
+Longyang-Liu Update at 2022-04-27T07:25:44.494035Z
+Latest commit 758b277 13 hours ago
+History
+105 contributors
+@ByteLegendBot
+@Eric-allen-forrever
+@MegaMidnight
+@DUST2333
+@MrYanQi2020
+@MeikleH
+@yunghf
+@tianjyTGB
+@g497813927
+@liupeng678
+@Tomcat-Guo
+@1994xiong
+95 lines (92 sloc) 3.17 KB
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>ByteLegendQuest</groupId>
@@ -54,18 +94,20 @@
          <version>0.1.2</version>
          <scope>test</scope>
       </dependency>
-      <dependency>org.apache.commons.lang3.StringUtils</dependency>
       <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
+
       <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>commons-lang3</artifactId>
-         <version>3.0</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.10</version>
       </dependency>
+
+
       <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-engine</artifactId>

@@ -54,10 +54,7 @@
          <version>0.1.2</version>
          <scope>test</scope>
       </dependency>
-      <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
-      </dependency>
+      <dependency>org.apache.commons.lang3.StringUtils</dependency>
       <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>

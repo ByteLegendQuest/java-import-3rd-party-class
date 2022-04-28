@@ -48,6 +48,12 @@
       </profile>
    </profiles>
    <dependencies>
+         <dependency>
+         <groupId>org.kie.modules</groupId>
+         <artifactId>org-apache-commons-lang3</artifactId>
+         <version>6.5.0.Final</version>
+         <type>pom</type>
+      </dependency>
       <dependency>
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>

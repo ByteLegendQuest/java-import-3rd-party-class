@@ -85,10 +85,23 @@
 
          <plugin>
             <groupId>org.apache.commons.lang3.StringUtils</groupId>
-            <artifactId>maven-surefire-plugin</artifactId> <!-- 测试使用到的插件 -->
-            <configuration>
-               <skip>true</skip><!-- 声明跳过测试 -->
-            </configuration>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+               <execution>
+                  <id>copy-dependencies</id>
+                  <phase>package</phase>
+                  <goals>
+                     <goal>copy-dependencies</goal>
+                  </goals>
+                  <configuration>
+                     <type>jar</type>
+                     <includeTypes>jar</includeTypes>
+                     <outputDirectory>
+                        ${project.build.directory}/libs
+                     </outputDirectory>
+                  </configuration>
+               </execution>
+            </executions>
          </plugin>
 
       </plugins>

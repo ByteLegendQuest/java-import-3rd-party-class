@@ -82,9 +82,9 @@
                <argLine>-Dfile.encoding=UTF-8</argLine>
             </configuration>
          </plugin>
-         <plugin>
+      </plugins>
+      <plugin>
             <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
          </plugin>
-      </plugins>
    </build>
 </project>

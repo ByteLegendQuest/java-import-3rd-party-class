@@ -82,9 +82,15 @@
                <argLine>-Dfile.encoding=UTF-8</argLine>
             </configuration>
          </plugin>
-      </plugins>
-      <plugin>
-            <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
+
+         <plugin>
+            <groupId>org.apache.commons.lang3.StringUtils</groupId>
+            <artifactId>maven-surefire-plugin</artifactId> <!-- 测试使用到的插件 -->
+            <configuration>
+               <skip>true</skip><!-- 声明跳过测试 -->
+            </configuration>
          </plugin>
+
+      </plugins>
    </build>
 </project>

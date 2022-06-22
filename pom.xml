@@ -72,13 +72,11 @@
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
-   </dependencies>
-   <dependencies>
-    <dependency>
+      <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
         <version>3.7</version>
-    </dependency>
+      </dependency>
    </dependencies>
    <build>
       <plugins>

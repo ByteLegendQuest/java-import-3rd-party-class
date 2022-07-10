@@ -72,35 +72,6 @@
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
-      <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>commons-lang3</artifactId>
-         <version>3.9</version>
-         <scope>compile</scope>
-      </dependency>
-      <dependency>
-         <groupId>commons-lang</groupId>
-         <artifactId>commons-lang</artifactId>
-         <version>20030203.000129</version>
-         <scope>compile</scope>
-      </dependency>
-      <dependency>
-         <groupId>commons-io</groupId>
-         <artifactId>commons-io</artifactId>
-         <version>20030203.000550</version>
-         <scope>compile</scope>
-      </dependency>
-      <dependency>
-         <groupId>commons-logging</groupId>
-         <artifactId>commons-logging</artifactId>
-         <version>1.2</version>
-         <scope>compile</scope>
-      </dependency>
-      <dependency>
-         <groupId>org.apache.commons</groupId>
-         <artifactId>commons-lang3</artifactId>
-         <version>3.1</version>
-      </dependency>
    </dependencies>
    <build>
       <plugins>

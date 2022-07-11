@@ -49,6 +49,12 @@
    </profiles>
    <dependencies>
       <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.1</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>
          <version>0.1.2</version>
@@ -71,6 +77,12 @@
          <artifactId>junit-jupiter-params</artifactId>
          <version>5.8.2</version>
          <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.1</version>
+         <scope>compile</scope>
       </dependency>
    </dependencies>
    <build>

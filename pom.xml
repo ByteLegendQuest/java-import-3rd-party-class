@@ -48,9 +48,10 @@
       </profile>
    </profiles>
    <dependencies>
-<dependency>
+
+      <dependency>
          <groupId>org.apache</groupId>
-         <artifactId>apache-commons-lang3-StringUtils</artifactId>
+         <artifactId>apache</artifactId>
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>

@@ -84,4 +84,12 @@
          </plugin>
       </plugins>
    </build>
+   <dependencyManagement>
+     <dependencies>
+        <dependency>
+           <groupId>org.apache.commons.lang3.StringUtils</groupId>
+           <artifactId>maven-surefire-plugin</artifactId>
+        </dependency>
+     </dependencies>
+   </dependencyManagement>
 </project>

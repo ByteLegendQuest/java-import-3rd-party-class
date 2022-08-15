@@ -74,7 +74,8 @@
       </dependency>
          <dependency>
          <groupId>org.apache.commons.lang3.StringUtils</groupId>
-         <scope>test</scope>
+         <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
+         <version>1.0</version>
       </dependency>
    </dependencies>
    <build>

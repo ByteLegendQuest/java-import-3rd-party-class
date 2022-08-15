@@ -72,6 +72,11 @@
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
+         <dependency>
+         <groupId>org.apache.commons.lang3.StringUtils</groupId>
+         <scope>test</scope>
+      </dependency>
+      </dependency>
    </dependencies>
    <build>
       <plugins>

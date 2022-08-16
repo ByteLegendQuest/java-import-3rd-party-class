@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>ByteLegendQuest</groupId>
-   <artifactId>java-import-3rd-party-class</artifactId>
+   <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
    <version>1.0-SNAPSHOT</version>
    <properties>
       <maven.compiler.source>1.8</maven.compiler.source>
@@ -48,6 +48,11 @@
       </profile>
    </profiles>
    <dependencies>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-lang3</artifactId>
+         <version>3.0</version>
+      </dependency>
       <dependency>
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>

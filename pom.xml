@@ -50,7 +50,7 @@
    <dependencies>
       <dependency>
          <groupId>org.apache.commons</groupId>
-         <artifactId>lang3.StringUtils</artifactId>
+         <artifactId>commons-lang3</artifactId>
          <version>3.0</version>
          <scope>test</scope>
       </dependency>

@@ -49,7 +49,7 @@
    </profiles>
    <dependencies>
       <dependency>
-         <groupId>org.apache.comons</groupId>
+         <groupId>org.apache.commons</groupId>
           <artifactId>commons-lang3</artifactId>
          <version>1.1</version>
       </dependency>

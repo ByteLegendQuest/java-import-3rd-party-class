@@ -50,6 +50,9 @@
    <dependencies>
       <dependency>
          <groupId>org.apache.comons.lang3.StringUtils</groupId>
+          <artifactId>test</artifactId>
+         <version>0.1</version>
+         <scope>test</scope>
       </dependency>
       <dependency>
          <groupId>com.github.blindpirate</groupId>

@@ -58,7 +58,7 @@
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>
          <version>0.1.2</version>
-         <scope>test</scope>
+     
       </dependency>
       <dependency>
          <groupId>org.junit.jupiter</groupId>

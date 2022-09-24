@@ -73,10 +73,11 @@
          <scope>test</scope>
       </dependency>
 
-      <dependency>
-         <groupId>org.apache.commons.lang3.StringUtils</groupId>
-         <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
-      </dependency>
+       <dependency>                                            
+    <groupId>org.apache.commons.lang3.StringUtils</groupId>                   
+    <artifactId>java-import-3rd-party-class</artifactId> 
+    <version>1.0-SNAPSHOT</version>                      
+ </dependency>                                           
 
    </dependencies>
    <build>

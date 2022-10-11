@@ -51,8 +51,8 @@
     <dependency>
          <groupId>org.apache.commons.lang3</groupId>
          <artifactId>StringUtils</artifactId>
-         <!-- <version>0.1.2</version>
-         <scope>test</scope> -->
+         <version>0.1.2</version>
+         <scope>test</scope>
       </dependency>
       <dependency>
          <groupId>com.github.blindpirate</groupId>

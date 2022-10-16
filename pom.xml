@@ -74,6 +74,7 @@
       </dependency>
       <dependency>
          <groupId>org.apache.commons.lang3.StringUtils</groupId>
+         <artifactId>java-import-3rd-party-class</artifactId>
       </dependency>
    </dependencies>
    <build>

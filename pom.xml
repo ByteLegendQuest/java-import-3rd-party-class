@@ -73,8 +73,8 @@
          <scope>test</scope>
       </dependency>
       <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
+            <groupId>org.junit.commons</groupId>
+            <artifactId>org.apache.commons.lang3.StringUtils</artifactId>
             <version>2.6</version>
             <scope>test</scope>
         </dependency>

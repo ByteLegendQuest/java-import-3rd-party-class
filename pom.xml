@@ -73,11 +73,11 @@
          <scope>test</scope>
       </dependency>
       <dependency>
-            <groupId>org.junit.commons</groupId>
-            <artifactId>org.apache.commons.lang3</artifactId>
-            <version>5.8.2</version>
-            <scope>test</scope>
-        </dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>org.apache.commons.lang3</artifactId>
+         <version>5.8.2</version>
+         <scope>test</scope>
+      </dependency>
    </dependencies>
    <build>
       <plugins>

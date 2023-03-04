@@ -72,6 +72,13 @@
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
+      <!-- https://mvnrepository.com/artifact/com.sultan.utils/stringutils -->
+<dependency>
+    <groupId>com.sultan.utils</groupId>
+    <artifactId>stringutils</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
    </dependencies>
    <build>
       <plugins>

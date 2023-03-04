@@ -72,12 +72,11 @@
          <version>5.8.2</version>
          <scope>test</scope>
       </dependency>
-      <!-- https://mvnrepository.com/artifact/com.sultan.utils/stringutils -->
-<dependency>
-    <groupId>com.sultan.utils</groupId>
-    <artifactId>stringutils</artifactId>
-    <version>1.0.0</version>
-</dependency>
+      <dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		    <version>3.10</version>
+	</dependency>
 
    </dependencies>
    <build>

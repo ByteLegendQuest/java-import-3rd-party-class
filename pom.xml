@@ -48,6 +48,13 @@
       </profile>
    </profiles>
    <dependencies>
+   <!-- https://mvnrepository.com/artifact/io.github.wniemiec-util-java/string-utils -->
+<dependency>
+    <groupId>io.github.wniemiec-util-java</groupId>
+    <artifactId>string-utils</artifactId>
+    <version>1.1.2</version>
+</dependency>
+
       <dependency>
          <groupId>com.github.blindpirate</groupId>
          <artifactId>junit5-capture-system-output-extension</artifactId>

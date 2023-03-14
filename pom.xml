@@ -74,7 +74,8 @@
       </dependency>
       <dependency>
          <groupId>org.apache.commons.lang3.StringUtils</groupId>
-         <scope>runtime</scope>
+         <artifactId>org-apache-commons-lang3-StringUtils</artifactId>
+         <scope>compile</scope>
       </dependency>
    </dependencies>
    <build>

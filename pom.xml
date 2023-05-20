@@ -76,7 +76,7 @@
          <groupId>org.apache.commons</groupId>
          <artifactId>commons-lang3</artifactId>
          <version>LATEST</version>
-      </dependency
+      </dependency>
    </dependencies>
    <build>
       <plugins>

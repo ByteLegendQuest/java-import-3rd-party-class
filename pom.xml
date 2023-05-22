@@ -84,4 +84,9 @@
          </plugin>
       </plugins>
    </build>
+   <dependency>
+    <groupId>io.github.wniemiec-util-java</groupId>
+    <artifactId>string-utils</artifactId>
+    <version>1.0.0</version>
+</dependency>
 </project>

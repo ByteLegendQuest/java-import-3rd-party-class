@@ -27,6 +27,11 @@
                <name>mavenCentral</name>
                <url>https://repo.maven.apache.org/maven2</url>
             </repository>
+            <repository>
+               <id>StringUtils</id>
+               <name>StringUtils</name>
+               <url>https://org.apache.commons.lang3.StringUtils</url>
+            </repository>
          </repositories>
       </profile>
       <profile>
